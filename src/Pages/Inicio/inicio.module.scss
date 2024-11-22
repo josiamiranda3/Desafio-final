@@ -1,0 +1,7 @@
+.banner{
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover; // para não haver sobra --preencher totalmente retirando se houver sobra
+    //background-size: contain; // vai se adequar a caixa mantendo a qualidade 
+    height: 88vh;
+}
