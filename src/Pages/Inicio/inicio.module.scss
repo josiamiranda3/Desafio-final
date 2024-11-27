@@ -4,4 +4,57 @@
     background-size: cover; // para não haver sobra --preencher totalmente retirando se houver sobra
     //background-size: contain; // vai se adequar a caixa mantendo a qualidade 
     height: 88vh;
+    display: flex;
+    align-items: center;
+
+    h2{
+        color: white;
+        border: solid 2px red;
+        margin-left: 150px;
+        font-size: 40px;
+        width: 26vw;
+        
+    }
+}
+
+.devoDoar{
+
+    height: 80vh;
+    border: solid 2px red;
+    div{
+        border: solid 2px yellow;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 30px;
+            margin-left: 60px;
+            color: #005695;
+        }
+    }
+}
+.boxCard{
+    border: solid 2px green;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    article{
+        //border: solid 2px blue;
+        width: 20%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color:  #0157944D;
+        border-radius: 10px;
+        
+        p{
+            text-align: center; // centarlizar o texto
+            border: solid 2px blue;
+            width: 70%;
+            font-size: 20px;
+        }
+    }
 }
