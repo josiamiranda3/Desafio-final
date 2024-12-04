@@ -1,10 +1,10 @@
 import logo from '../../assets/logo.png'
 import busca from '../../assets/busca.png'
 import { BrowserRouter,Routes, Route, Link } from 'react-router-dom'
-import Inicio from '../../Pages/Inicio/inicio'
-//import Doados from '../../Pages/Inicio/Inicio'
-import Doados from '../../Pages/Doados/doados'
-//import Doados from '../../Pages/Doados/Doados'
+//import Inicio from '../../Pages/Inicio/inicio' erro
+import Inicio from '../../Pages/Inicio/Inicio'
+//import Doados from '../../Pages/Doados/doados' erro
+import Doados from '../../Pages/Doados/Doados'
 import QueroDoar from '../../Pages/QueroDoar/QueroDoar'
 import S from './header.module.scss'
 
