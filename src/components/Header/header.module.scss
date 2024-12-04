@@ -3,7 +3,7 @@
 // module de modularização globas.scss - global
 
 header{
-    border: solid 2px red;
+    //border: solid 2px red;
     height: 15vh;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@ header{
 .boxLogo{
      
     
-    border: solid 2px yellow;
+    //border: solid 2px yellow;
     width: 23vw;
     display: flex;
     color: white;
@@ -26,17 +26,18 @@ header{
 
  .boxMenu{
 
-    border: solid 2px greenyellow;
+    //border: solid 2px greenyellow;
     width: 35vw;
 
     ul{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-size: 20px;
         
         a{
             color: white;
-            font-size: 20px;
+            //font-size: 20px;
         }
     }
 
@@ -54,6 +55,7 @@ header{
     // padding-left: 15px;
 
     input{
+        width: 12vw;
         background-color: transparent;
         outline: none; // clicar ficar com linha padrão, linhas nos textos 
         border: none;
@@ -63,6 +65,72 @@ header{
         // atribuir com o input querendo estilizar com o input
         &::placeholder{
             color: white;
+        }
+    }
+ }
+
+
+ @media(max-width: 1134px){
+
+     .boxLogo{
+        //border: solid 2px red;
+        width: 25vw;
+        h1{
+            font-size: 1.8vw;
+        }
+        img{
+            width: 5vw;
+        }
+     }
+
+     .boxMenu{
+        //border: solid 2px red;
+        ul{
+            font-size: 1.6vw;
+        }
+     }
+
+     .boxInput{
+        width: 18vw;
+        
+        input{
+            &::placeholder{
+                font-size: 1.2vw;
+            }
+        }
+     }
+
+ }
+
+ @media(max-width: 760px ){
+
+    header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxInput{
+        display: none;
+    }
+
+    .boxLogo{
+        width: 80%;
+        //justify-content: space-evenly;
+
+        h1{
+            font-size: 25px;
+        }
+        img{
+            width: 60px;
+        }
+        
+    }
+
+    .boxMenu{
+        width: 100%;
+        ul{
+            justify-content: space-evenly;
+            font-size: 22px;
         }
     }
  }

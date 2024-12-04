@@ -13,11 +13,12 @@ export default function QueroDoar(){
                     <img src={livro} alt="" />
                     <h3>Informações do Livro</h3>
                 </div>
-                <input type="text" placeholder='TItulo' />
+                <input type="text" placeholder='Titulo' />
                 <input type="text"  placeholder='Categoria'/>
                 <input type="text" placeholder='Autor'/>
                 <input type="text" placeholder='Link da imagem'/>
-                
+                <input className={S.doar} type="submit" value="Doar" />
+            
              </form>
         </section>
         </section>
